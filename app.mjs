@@ -80,4 +80,4 @@ async function scrapeWorldPopulation() {
 
 
 // Schedule a job to run every two minutes
-const job = nodeCron.schedule("*/2 * * * *", scrapeWorldPopulation);
+const job = nodeCron.schedule("*/1 * * * *", scrapeWorldPopulation);
